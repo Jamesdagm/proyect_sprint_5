@@ -14,7 +14,7 @@ st.write(df)
 
 
 # Botón para construir un histograma (condition vs model_year)
-if st.button('Histograma (Condition vs Model Year)'):
+if st.button('Histograma (Condición vs Modelo-Año)'):
     # Construir y mostrar el histograma usando Plotly Express
     fig_condition = px.histogram(df, x='model_year', color='condition', title='Histograma (Condition vs Model Year)')
     st.plotly_chart(fig_condition)
