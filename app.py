@@ -20,7 +20,7 @@ if st.button('Histograma (Condición vs Modelo-Año)'):
     st.plotly_chart(fig_condition)
 
 # Botón para construir un gráfico de dispersión
-if st.button('Gráfico de Dispersión'):
+if st.button('Gráfico de Dispersión (Odómetro Vs Precio Vehículos)'):
     # Construir y mostrar el gráfico de dispersión usando Plotly Express
-    fig_scatter = px.scatter(df, x='odometer', y='price', color='fuel', title='Gráfico de Dispersión')
+    fig_scatter = px.scatter(df, x='Odómetro', y='price', color='fuel', title='Odómetro Vs Precio Vehículos')
     st.plotly_chart(fig_scatter)
