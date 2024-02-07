@@ -12,11 +12,6 @@ st.title('Explorador de Datos de Vehículos')
 st.header('Conjunto de Datos de Vehículos')
 st.write(df)
 
-# Botón para construir un histograma general
-if st.button('Histograma General'):
-    # Construir y mostrar el histograma usando Plotly Express
-    fig_general = px.histogram(df, x='year', title='Histograma General')
-    st.plotly_chart(fig_general)
 
 # Botón para construir un histograma (condition vs model_year)
 if st.button('Histograma (Condition vs Model Year)'):
