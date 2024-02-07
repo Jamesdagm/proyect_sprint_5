@@ -4,8 +4,4 @@ port = 10000
 
 [browser]
 serverAddress = "0.0.0.0"
-<<<<<<< HEAD
 serverPort = 10000 
-=======
-serverPort = 10000 
->>>>>>> dac53417b9c6ffe2a335f7be7a279bc4b16350ff
